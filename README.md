@@ -173,7 +173,6 @@ order by
 
 </details>
 
-
 <details>
 <summary><strong>Goal 5 – Most Frequently Purchased Tracks</strong></summary>
 <br>
@@ -198,7 +197,6 @@ order by
 ```
 
 </details>
-
 
 <details>
 <summary><strong>Goal 6 – Playlists Containing Jazz Tracks</strong></summary>
@@ -635,6 +633,7 @@ from
 ```
 </details>
 
+
 <details>
 <summary><strong>Goal 18 - Customers with Increasing Purchase Behavior</strong></summary>
 <br>
@@ -690,6 +689,7 @@ where
 
 </details>
 
+
 <details>
 <summary><strong>Goal 19 - Cohort Analysis by First Purchase Year</strong></summary>
 <br>
@@ -732,6 +732,7 @@ order by
 ```
 
 </details>
+
 
 <details>
 <summary><strong>Goal 20 - Artists with High Genre Diversity</strong></summary>
@@ -863,6 +864,7 @@ join
 	artist ar on ar.artist_id = tb.artist_id
 ;
 ```
+</details>
 
 <details>
 <summary><strong>Goal 21 - Tracks Appearing in 20% or More of Playlists</strong></summary>
