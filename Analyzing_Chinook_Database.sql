@@ -1,7 +1,5 @@
 -- 1. Top 5 artists ranked by sales
 -- Identify the top 5 artists generating the highest total revenue.
--- Revenue is calculated as the sum of unit_price * quantity
--- across all invoice lines associated with each artist.
 with t_total_sales as (
 	select distinct
 		a2."name" as artist,
